@@ -36,9 +36,7 @@ public class Student extends Participant {
 
     @Override
     public void display() {
-        System.out.println(getEmail());
-        System.out.println(getId());
-        System.out.println(getName());
+        System.out.println(getId()+" | "+getEmail()+" | "+getName());
     }
 
 
